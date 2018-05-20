@@ -1,0 +1,62 @@
+<DOCTYPE html!>
+<html>
+<head>
+    <title>Form Page</title>
+<body>
+  <div>  
+    <h1>BUAT ACCOUNT BARU</h1>
+  </div>
+  <div>
+    <h2>Sign Up Form</h2>
+  </div>    
+  <form>
+    <fieldset>
+    <p>
+      <label for="first-name">First Name</label>
+      <input id="first-name" name="FirstName" type="text">
+    </p>
+    <p>
+      <label for="Last-name">Last Name</label>
+      <input id="Last-name">
+    </p>
+    </fieldset>
+    
+  <form>
+  <label for="gender">Gender:</label><br>
+  <input id="male-radio" type="radio" name="gender" value="male">
+  <label for="male-radio">Male</label><br>
+  <input id="female-radio" type="radio" name="gender" value="female">
+  <label for="female-radio">Female</label><br>
+  <input id="other-radio" type="radio" name"gender" value="other">
+  <label for="other-radio">Other</label> 
+  </form>
+  <form>
+     <p>
+       <label for="Nationality">Nationality?</label>
+       <input type="text" name="Nationality" list="Nationality"/>
+       <datalist id="Nationality">
+         <select name="Nationality">
+           <option value="Indonesia">INA</option>
+           <option value="Malaysia">MLY</option>
+           <option value="Singapore">SIG</option>
+         </select>
+       </datalist>
+    </p>
+  </form>
+  <form>
+    <label for="Language Spoken">Language Spoken :</label><br>
+    <input id="Bahasa-checkbox" type="checkbox" name="Bahasa" value=""Bahasa>
+    <label for="Language Spoken">Bahasa</label><br>
+    <input id="English" type="checkbox" name="English" Value="English">
+    <label for="Language Spoken">English</label><br>
+    <input id="others" type="checkbox" name="Others">
+    <label for="Language Spoken">Others</label>
+  </form>
+  <form action="welcome.html" method="POST">
+    <label>
+      BIO :
+      <input type="text" name="nama"/><br>
+      <input href="file:///D:/Hacktiv8%20-%20Uberfox/Fase%200/Welcome.html" type="Submit" value="Sign Up"/>
+   </form>
+ </body>
+ </html>
